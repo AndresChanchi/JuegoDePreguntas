@@ -26,25 +26,38 @@ No hay dependencias externas. Solo necesitas tener **Rust** instalado en tu sist
 2. Clona este repositorio en tu máquina local:
 
    ```bash
-   git clone https://github.com/usuario/quiz_game_Millonario.git
+   git clone https://github.com/AndresChanchi/JuegoDePreguntas.git
    ```
 
 3. Navega al directorio del proyecto:
 
    ```bash
-   cd quiz_game_Millonario
+   cd JuegoDePreguntas
    ```
 
-4. Compila y ejecuta el programa:
+4. **Compilar el programa**:
+
+   Primero, compila el proyecto usando el siguiente comando:
+
+   ```bash
+   cargo build
+   ```
+
+5. **Ejecutar el programa**:
+
+   Una vez compilado, puedes ejecutar el programa con el siguiente comando:
 
    ```bash
    cargo run
    ```
 
-5. Responde las preguntas y diviértete. El puntaje se acumulará por cada respuesta correcta.
-
-6. Si deseas intentarlo de nuevo, responde **"s"** (sí) cuando el programa te lo pida.
+6. Responde las preguntas, intentalo las veces que quiera y diviértete. 
 
 ## Contribución
 
 Si deseas mejorar o agregar nuevas características a este proyecto, siéntete libre de hacer un fork y crear un pull request. ¡Cualquier contribución es bienvenida! Nada de esto fue redactado por Chatgpt :D
+
+## Creadores
+
+- [Jose Viancha](https://www.linkedin.com/in/jose-viancha-7711a167/)
+- [Andrés Chanchi](https://github.com/AndresChanchi/) 
