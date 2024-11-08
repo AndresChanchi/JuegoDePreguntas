@@ -56,6 +56,37 @@ fn main() {
             options: ["A) Imprime `6`", "B) Imprime `12`", "C) Causa un error en tiempo de compilación.", "D) Imprime `18`"],
             answer: 'B',
         },
+        Question {
+            text: "¿Cuál de las siguientes afirmaciones sobre el sistema de ownership en Rust es correcta?",
+            options: [
+                "A) Un valor puede tener múltiples dueños al mismo tiempo.",
+                "B) Cuando un valor es movido, su propietario original mantiene acceso a él.",
+                "C) Rust permite referencias mutables e inmutables simultáneamente al mismo valor.",
+                "D)  Cuando un valor sale de su scope, se libera automáticamente."
+            ],
+            answer: 'D',
+        },
+        Question {
+            text: "¿Cuál es la función principal del operador ? en Rust?",
+            options: [
+                "A) Realizar una operación de división segura entre dos enteros.",
+                "B) Propagar errores en funciones que devuelven Result, simplificando el manejo de errores.",
+                "C) Forzar la conversión entre tipos de datos incompatibles.",
+                "D) Cambiar el tipo de una variable a Option."
+            ],
+            answer: 'B',
+        },
+        Question {
+            text: "¿Cuál es la diferencia entre String y &str en Rust?",
+            options: [
+                "A) String es una cadena con tamaño fijo, mientras que &str tiene tamaño dinámico.",
+                "B) &str siempre apunta a una cadena en el heap, mientras que String apunta a una cadena en el stack.",
+                "C) String es un tipo de cadena mutable y asignado en el heap, mientras que &str es una referencia a una cadena inmutable, generalmente en el stack o en constantes.",
+                "D) &str permite modificación de su contenido, mientras que String no."
+            ],
+            answer: 'C',
+        },
+        
     ];
 
     loop {
